@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+	<BodyPartGroupDef>
+		<defName>Astromech_Charge_Arm</defName>
+		<label>Charge Arm</label>
+		<labelShort>Charger</labelShort>
+		<listOrder>79</listOrder>
+  	</BodyPartGroupDef>
+  
+  	<BodyPartGroupDef>
+		<defName>Astromech_Electric_Arc_Welder</defName>
+		<label>Electric Arc Welder</label>
+		<labelShort>Welder</labelShort>
+		<listOrder>78</listOrder>
+  	</BodyPartGroupDef>
+	
+	<BodyPartGroupDef>
+		<defName>Astromech_Circular_Saw</defName>
+		<label>Circular Saw</label>
+		<labelShort>Saw</labelShort>
+		<listOrder>77</listOrder>
+  	</BodyPartGroupDef>
+	
+	<BodyPartGroupDef>
+		<defName>Astromech_Repair_Arm</defName>
+		<label>Repair Arm</label>
+		<labelShort>Repair Arm</labelShort>
+		<listOrder>76</listOrder>
+  	</BodyPartGroupDef>
+	
+	<BodyPartGroupDef>
+		<defName>Astromech_Computer_Scomp_Link</defName>
+		<label>Computer Scomp Link</label>
+		<labelShort>Scomp Link</labelShort>
+		<listOrder>75</listOrder>
+  	</BodyPartGroupDef>
+
+</Defs>

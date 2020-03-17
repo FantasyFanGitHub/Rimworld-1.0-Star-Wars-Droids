@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<AlienRace.BackstoryDef>
+		<defName>ProtocolStandardBackground1</defName>
+		<title>Manufactured</title>
+		<titleShort>Factory Made</titleShort>
+		<baseDescription>This Protocol Driod was made in a Factory on Affa in the Core Worlds with other Droids.</baseDescription>
+		<slot>Childhood</slot>
+		<bodyTypeGlobal>Male</bodyTypeGlobal>
+		<maleCommonality>100</maleCommonality>
+		<spawnCategories>
+			<li>Protocol3POBackstory</li>
+		</spawnCategories>
+		<workDisables>
+        	<li>Caring</li>
+			<li>Animals</li>
+			<li>Cooking</li>
+			<li>ManualSkilled</li>
+			<li>Artistic</li>
+			<li>Cleaning</li>
+			<li>Intellectual</li>
+    	</workDisables>
+		<skillGains>
+      		<li>
+        		<defName>Social</defName>
+        		<amount>5</amount>
+      		</li>
+    	</skillGains>
+		<linkedBackstory>ProtocolStandardBackground2</linkedBackstory>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ProtocolStandardBackground2</defName>
+		<title>Protocol Droid</title>
+		<titleShort>Protocol Droid</titleShort>
+		<baseDescription>[PAWN_nameDef] was created by Cybot Galactica.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Male</bodyTypeGlobal>
+		<maleCommonality>100</maleCommonality>
+		<spawnCategories>
+			<li>Protocol3POBackstory</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ProtocolStandardBackground5</defName>
+		<title>Manufactured</title>
+		<titleShort>Factory Made</titleShort>
+		<baseDescription>This Protocol Driod was made in a Factory on Affa in the Core Worlds with other Droids.</baseDescription>
+		<slot>Childhood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<maleCommonality>100</maleCommonality>
+		<spawnCategories>
+			<li>Protocol3POBackstory</li>
+		</spawnCategories>
+		<workDisables>
+        	<li>Caring</li>
+			<li>Animals</li>
+			<li>Cooking</li>
+			<li>ManualSkilled</li>
+			<li>Artistic</li>
+			<li>Cleaning</li>
+			<li>Intellectual</li>
+    	</workDisables>
+		<skillGains>
+      		<li>
+        		<defName>Social</defName>
+        		<amount>5</amount>
+      		</li>
+    	</skillGains>
+		<linkedBackstory>ProtocolStandardBackground6</linkedBackstory>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ProtocolStandardBackground6</defName>
+		<title>Protocol Droid</title>
+		<titleShort>Protocol Droid</titleShort>
+		<baseDescription>[PAWN_nameDef] was created by Cybot Galactica.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<maleCommonality>100</maleCommonality>
+		<spawnCategories>
+			<li>Protocol3POBackstory</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ProtocolStandardBackground3</defName>
+		<title>Manufactured</title>
+		<titleShort>Factory Made</titleShort>
+		<baseDescription>This Protocol Driod was made in a Factory on Affa in the Core Worlds with other Droids.</baseDescription>
+		<slot>Childhood</slot>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<maleCommonality>0</maleCommonality>
+		<spawnCategories>
+			<li>ProtocolTCBackstory</li>
+		</spawnCategories>
+		<workDisables>
+        	<li>Caring</li>
+			<li>Animals</li>
+			<li>Cooking</li>
+			<li>ManualSkilled</li>
+			<li>Artistic</li>
+			<li>Cleaning</li>
+			<li>Intellectual</li>
+    	</workDisables>
+		<skillGains>
+      		<li>
+        		<defName>Social</defName>
+        		<amount>5</amount>
+      		</li>
+    	</skillGains>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ProtocolStandardBackground4</defName>
+		<title>Protocol Droid</title>
+		<titleShort>Protocol Droid</titleShort>
+		<baseDescription>[PAWN_nameDef] was created by Cybot Galactica.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<maleCommonality>0</maleCommonality>
+		<spawnCategories>
+			<li>ProtocolTCBackstory</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+
+
+</Defs>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RulePackDef>
+		<defName>NamerPerson3PO</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[Letter][Stroke][3PO]</li>
+			</rulesStrings>
+			<rulesRaw>
+				<li Class="Rule_File">
+					<keyword>3PO</keyword>
+					<path>Protocol_Droid/Nameparts1</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Letter</keyword> 
+					<path>Protocol_Droid/Nameparts6</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Stroke</keyword> 
+					<path>Protocol_Droid/Nameparts3</path>
+				</li>			
+			</rulesRaw>
+		</rulePack>
+	</RulePackDef>
+	
+	<RulePackDef>
+		<defName>NamerPersonTC</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[TC][Stroke][Number1][Number2]</li>
+			</rulesStrings>
+			<rulesRaw>
+				<li Class="Rule_File">
+					<keyword>TC</keyword>
+					<path>Protocol_Droid/Nameparts2</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Number1</keyword>
+					<path>Protocol_Droid/Nameparts4</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Number2</keyword> 
+					<path>Protocol_Droid/Nameparts5</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Stroke</keyword> 
+					<path>Protocol_Droid/Nameparts3</path>
+				</li>			
+			</rulesRaw>
+		</rulePack>
+	</RulePackDef>
+
+</Defs>

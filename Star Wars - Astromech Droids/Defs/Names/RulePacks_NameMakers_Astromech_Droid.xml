@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RulePackDef>
+		<defName>NamerPersonRII</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[R2_1][Stroke][Letter][Number]</li>
+			</rulesStrings>
+			<rulesRaw>
+				<li Class="Rule_File">
+					<keyword>R2_1</keyword>
+					<path>Astromech_Droid/Nameparts1</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Letter</keyword> 
+					<path>Astromech_Droid/Nameparts10</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Number</keyword>
+					<path>Astromech_Droid/Nameparts9</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Stroke</keyword> 
+					<path>Astromech_Droid/Nameparts11</path>
+				</li>			
+			</rulesRaw>
+		</rulePack>
+	</RulePackDef>
+	
+	<RulePackDef>
+		<defName>NamerPersonRIII</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[R3_1][Stroke][Letter][Number]</li>
+			</rulesStrings>
+			<rulesRaw>
+				<li Class="Rule_File">
+					<keyword>R3_1</keyword>
+					<path>Astromech_Droid/Nameparts2</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Number</keyword>
+					<path>Astromech_Droid/Nameparts9</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Letter</keyword> 
+					<path>Astromech_Droid/Nameparts10</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Stroke</keyword> 
+					<path>Astromech_Droid/Nameparts11</path>
+				</li>			
+			</rulesRaw>
+		</rulePack>
+	</RulePackDef>
+	
+	<RulePackDef>
+		<defName>NamerPersonRIV</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[R4_1][Stroke][Letter][Number]</li>
+			</rulesStrings>
+			<rulesRaw>
+				<li Class="Rule_File">
+					<keyword>R4_1</keyword>
+					<path>Astromech_Droid/Nameparts3</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Number</keyword>
+					<path>Astromech_Droid/Nameparts9</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Letter</keyword> 
+					<path>Astromech_Droid/Nameparts10</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Stroke</keyword> 
+					<path>Astromech_Droid/Nameparts11</path>
+				</li>			
+			</rulesRaw>
+		</rulePack>
+	</RulePackDef>
+	
+	<RulePackDef>
+		<defName>NamerPersonRV</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[R5_1][Stroke][Letter][Number]</li>
+			</rulesStrings>
+			<rulesRaw>
+				<li Class="Rule_File">
+					<keyword>R5_1</keyword>
+					<path>Astromech_Droid/Nameparts4</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Number</keyword>
+					<path>Astromech_Droid/Nameparts9</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Letter</keyword> 
+					<path>Astromech_Droid/Nameparts10</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Stroke</keyword> 
+					<path>Astromech_Droid/Nameparts11</path>
+				</li>			
+			</rulesRaw>
+		</rulePack>
+	</RulePackDef>
+	
+	<RulePackDef>
+		<defName>NamerPersonRVI</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[R6_1][Stroke][Letter][Number]</li>
+			</rulesStrings>
+			<rulesRaw>
+				<li Class="Rule_File">
+					<keyword>R6_1</keyword>
+					<path>Astromech_Droid/Nameparts5</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Number</keyword>
+					<path>Astromech_Droid/Nameparts9</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Letter</keyword> 
+					<path>Astromech_Droid/Nameparts10</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Stroke</keyword> 
+					<path>Astromech_Droid/Nameparts11</path>
+				</li>			
+			</rulesRaw>
+		</rulePack>
+	</RulePackDef>
+	
+	<RulePackDef>
+		<defName>NamerPersonBB</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[BB_1][Stroke][Number]</li>
+			</rulesStrings>
+			<rulesRaw>
+				<li Class="Rule_File">
+					<keyword>BB_1</keyword>
+					<path>Astromech_Droid/Nameparts7</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Number</keyword>
+					<path>Astromech_Droid/Nameparts9</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Stroke</keyword> 
+					<path>Astromech_Droid/Nameparts11</path>
+				</li>			
+			</rulesRaw>
+		</rulePack>
+	</RulePackDef>
+	
+	<RulePackDef>
+		<defName>NamerPersonCI</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[C1_1][Stroke][Number][Letter]</li>
+			</rulesStrings>
+			<rulesRaw>
+				<li Class="Rule_File">
+					<keyword>C1_1</keyword>
+					<path>Astromech_Droid/Nameparts8</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Number</keyword>
+					<path>Astromech_Droid/Nameparts9</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Letter</keyword> 
+					<path>Astromech_Droid/Nameparts10</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Stroke</keyword> 
+					<path>Astromech_Droid/Nameparts11</path>
+				</li>			
+			</rulesRaw>
+		</rulePack>
+	</RulePackDef>
+
+</Defs>

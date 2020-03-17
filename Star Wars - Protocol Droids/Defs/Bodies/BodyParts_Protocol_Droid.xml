@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+	<BodyPartDef>
+		<defName>Protocol_Hull</defName>
+		<label>Protocol Droid Hull</label>
+		<hitPoints>40</hitPoints>
+		<skinCovered>true</skinCovered>
+		<solid>true</solid>
+		<canSuggestAmputation>false</canSuggestAmputation>
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+		<bleedRate>0</bleedRate>
+  	</BodyPartDef>
+	
+	<BodyPartDef>
+		<defName>Protocol_Head</defName>
+		<label>Protocol Droid Head</label>
+		<hitPoints>25</hitPoints>
+		<solid>true</solid>
+		<skinCovered>true</skinCovered>
+		<canSuggestAmputation>false</canSuggestAmputation>
+		<bleedRate>0</bleedRate>
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+  	</BodyPartDef>
+	
+	<BodyPartDef>
+		<defName>Protocol_Neck</defName>
+		<label>Protocol Droid Neck</label>
+		<hitPoints>30</hitPoints>
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+		<skinCovered>false</skinCovered>
+		<solid>true</solid>
+		<bleedRate>0</bleedRate>
+		<alive>false</alive>
+		<tags>
+			<li>EatingPathway</li>
+			<li>TalkingPathway</li>
+		</tags>
+  	</BodyPartDef>
+	
+	<BodyPartDef>
+		<defName>Protocol_Photoreceptors</defName>
+		<label>Photoreceptors</label>
+		<hitPoints>10</hitPoints>
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+		<delicate>true</delicate>
+		<skinCovered>false</skinCovered>
+		<socketed>true</socketed>
+		<tags>
+		  	<li>SightSource</li>
+		</tags>
+		<hitChanceFactors>
+		  	<li>
+				<key>Blunt</key>
+				<value>0</value>
+		  	</li>
+		</hitChanceFactors>
+		<bleedRate>0</bleedRate>
+  	</BodyPartDef>
+	
+	<BodyPartDef>
+		<defName>Protocol_Auditory_Receptors</defName>
+		<label>Auditory Receptors</label>
+		<hitPoints>12</hitPoints>
+		<skinCovered>true</skinCovered>
+		<tags>
+		  	<li>HearingSource</li>
+		</tags>
+		<bleedRate>0</bleedRate>
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+  	</BodyPartDef>
+	
+	<BodyPartDef>
+		<defName>Protocol_Olfactory_Sensor</defName>
+		<label>Olfactory Sensor</label>
+		<hitPoints>10</hitPoints>
+		<skinCovered>false</skinCovered>
+		<solid>true</solid>
+		<bleedRate>0</bleedRate>
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+  	</BodyPartDef>
+	
+	<BodyPartDef>
+		<defName>Protocol_Translator_Unit</defName>
+		<label>Translator Unit</label>
+		<hitPoints>10</hitPoints>
+		<skinCovered>false</skinCovered>
+		<solid>true</solid>
+		<bleedRate>0</bleedRate>
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+  	</BodyPartDef>
+	
+	<BodyPartDef>
+		<defName>Protocol_Recording_Unit</defName>
+		<label>Recording Unit</label>
+		<hitPoints>10</hitPoints>
+		<skinCovered>false</skinCovered>
+		<solid>true</solid>
+		<bleedRate>0</bleedRate>
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+  	</BodyPartDef>
+	
+	<BodyPartDef>
+		<defName>Protocol_Vocabulator</defName>
+		<label>Vocabulator</label>
+		<hitPoints>20</hitPoints>
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+		<skinCovered>false</skinCovered>
+		<solid>true</solid>
+		<bleedRate>0</bleedRate>
+		<tags>
+		  	<li>EatingSource</li>
+		  	<li>TalkingSource</li>
+		</tags>
+  	</BodyPartDef>
+	
+	<BodyPartDef>
+    	<defName>Protocol_Leg</defName>
+    	<label>Protocol Droid Leg</label>
+    	<hitPoints>30</hitPoints>
+    	<skinCovered>true</skinCovered>
+    	<tags>
+      		<li>MovingLimbCore</li>
+    	</tags>
+		<bleedRate>0</bleedRate>
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+  	</BodyPartDef>
+	
+	<BodyPartDef>
+		<defName>Protocol_Foot</defName>
+		<label>Protocol Droid Foot</label>
+		<hitPoints>25</hitPoints>
+		<skinCovered>true</skinCovered>
+		<tags>
+		  	<li>MovingLimbSegment</li>
+		</tags>
+		<bleedRate>0</bleedRate>
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+  	</BodyPartDef>
+	
+	<BodyPartDef>
+    	<defName>Protocol_TranLang_Communications_Module</defName>
+    	<label>TranLang Communications Module</label>
+    	<hitPoints>10</hitPoints>
+    	<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    	<delicate>true</delicate>
+    	<skinCovered>false</skinCovered>
+    	<tags>
+     		<li>ConsciousnessSource</li>
+    	</tags>
+    	<canSuggestAmputation>false</canSuggestAmputation>
+		<bleedRate>0</bleedRate>
+  	</BodyPartDef>
+	
+	<BodyPartDef>
+		<defName>Protocol_Shoulder</defName>
+		<label>Protocol Droid shoulder</label>
+		<hitPoints>30</hitPoints>
+		<skinCovered>true</skinCovered>
+		<tags>
+		  	<li>ManipulationLimbSegment</li>
+		</tags>
+		<bleedRate>0</bleedRate>
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+  	</BodyPartDef>
+	
+	<BodyPartDef>
+		<defName>Protocol_Arm</defName>
+		<label>Protocol Droid Arm</label>
+		<hitPoints>30</hitPoints>
+		<skinCovered>true</skinCovered>
+		<tags>
+			<li>ManipulationLimbCore</li>
+		</tags>
+		<bleedRate>0</bleedRate>
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+  	</BodyPartDef>
+	
+	<BodyPartDef>
+		<defName>Protocol_Hand</defName>
+		<label>Protocol Droid Hand</label>
+		<hitPoints>20</hitPoints>
+		<skinCovered>true</skinCovered>
+		<tags>
+		  	<li>ManipulationLimbSegment</li>
+		</tags>
+		<bleedRate>0</bleedRate>
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+  	</BodyPartDef>
+
+  	<BodyPartDef>
+		<defName>Protocol_Finger</defName>
+		<label>Finger</label>
+		<hitPoints>8</hitPoints>
+		<pawnGeneratorCanAmputate>true</pawnGeneratorCanAmputate>
+		<skinCovered>true</skinCovered>
+		<tags>
+		  	<li>ManipulationLimbDigit</li>
+		</tags>
+		<bleedRate>0</bleedRate>
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+  	</BodyPartDef>
+	
+	<BodyPartDef>
+		<defName>Protocol_Power_Cell</defName>
+		<label>Power Cell</label>
+		<hitPoints>15</hitPoints>
+		<bleedRate>0</bleedRate>
+		<skinCovered>false</skinCovered>
+		<tags>
+			<li>BloodPumpingSource</li>
+		</tags>
+		<canSuggestAmputation>false</canSuggestAmputation>
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+  	</BodyPartDef>
+
+  	<BodyPartDef>
+		<defName>Protocol_Fluid_Reprocessor</defName>
+		<label>Fluid Reprocessor</label>
+		<hitPoints>15</hitPoints>
+		<skinCovered>false</skinCovered>
+		<tags>
+      		<li>BloodFiltrationSource</li>
+    	</tags>
+		<canSuggestAmputation>false</canSuggestAmputation>
+		<bleedRate>0</bleedRate>
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+  	</BodyPartDef>
+
+  	<BodyPartDef>
+		<defName>Protocol_Heat_Exaust</defName>
+		<label>Heat Exaust</label>
+		<hitPoints>20</hitPoints>
+		<frostbiteVulnerability>2</frostbiteVulnerability>
+		<skinCovered>false</skinCovered>
+		<tags>
+		    <li>MetabolismSource</li>
+			<li>BreathingSource</li>
+		</tags>
+		<canSuggestAmputation>false</canSuggestAmputation>
+		<bleedRate>0</bleedRate>
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+  	</BodyPartDef>
+
+</Defs>

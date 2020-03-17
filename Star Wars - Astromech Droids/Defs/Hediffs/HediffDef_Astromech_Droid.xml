@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <HediffDef Name="Astromech_RacialBase" Abstract="True">
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(170, 210, 100)</defaultLabelColor>
+	<isBad>false</isBad>
+	<scenarioCanAdd>false</scenarioCanAdd>
+  </HediffDef>
+
+  <JecsTools.HediffExpandedDef ParentName="Astromech_RacialBase">
+    <defName>AstromechAICorePrograming</defName>
+    <label>Astromech AI Core Programing</label>
+    <labelNoun>a Enhanced AI Core Programing</labelNoun>
+    <postListText>Droids</postListText>
+    <stages>
+      <li>
+        <painFactor>0</painFactor>
+      </li>
+    </stages>
+    <spawnThingOnRemoved>Painstopper</spawnThingOnRemoved>
+    
+  </JecsTools.HediffExpandedDef>
+    <HediffGiverSetDef>
+    <defName>AstromechTraitsGiver</defName>
+    <hediffGivers>
+        <li Class="JecsTools.HediffGiver_StartWithHediff">
+        <hediff>AstromechAICorePrograming</hediff>
+		<partsToAffect>
+			<li>Brain</li>
+		</partsToAffect>
+        <expandedDef>AstromechAICorePrograming</expandedDef>
+      </li>
+    </hediffGivers>
+  </HediffGiverSetDef>
+
+</Defs>

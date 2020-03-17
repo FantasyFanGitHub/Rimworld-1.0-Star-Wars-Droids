@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<AlienRace.BackstoryDef>
+		<defName>AstromechStandardBackground1</defName>
+		<title>Manufactured</title>
+		<titleShort>Factory Made</titleShort>
+		<baseDescription>This Astromech Driod was made in a Factory on Nubia in the Core Worlds with other Droids.</baseDescription>
+		<slot>Childhood</slot>
+		<bodyTypeGlobal>Male</bodyTypeGlobal>
+		<maleCommonality>20</maleCommonality>
+		<spawnCategories>
+			<li>AstromechBackstory</li>
+		</spawnCategories>
+		<workDisables>
+        	<li>Social</li>
+			<li>Mining</li>
+			<li>Artistic</li>
+			<li>Animals</li>
+			<li>PlantWork</li>
+			<li>Caring</li>
+			<li>Cleaning</li>
+    	</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>AstromechStandardBackground2</defName>
+		<title>Astromech Droid</title>
+		<titleShort>Astromech Droid</titleShort>
+		<baseDescription>[PAWN_nameDef] was created by Industrial Automaton.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Male</bodyTypeGlobal>
+		<maleCommonality>20</maleCommonality>
+		<spawnCategories>
+			<li>AstromechBackstory</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+
+
+</Defs>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AlienRace.RaceSettings>
+		<defName>3PO_Protocol_Settings</defName>
+		<pawnKindSettings>
+            <alienslavekinds>
+				<li>
+					<kindDefs>
+						<li>Pawn_3PO_Protocol</li>
+					</kindDefs>
+					<chance>20.0</chance>
+				</li>
+            </alienslavekinds>
+			<startingColonists>
+				<li>
+					<pawnKindEntries>
+						<li>
+							<kindDefs>
+								<li>Pawn_3PO_Protocol</li>
+							</kindDefs>
+							<chance>20.0</chance>
+						</li>
+					</pawnKindEntries>
+					<factionDefs>
+						<li>ProtocolPlayerColony</li> 
+					</factionDefs>
+				</li>
+			</startingColonists>
+        </pawnKindSettings>
+	</AlienRace.RaceSettings>
+
+</Defs>
